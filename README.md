@@ -76,8 +76,3 @@ This project simulates a telecom company's analytics environment. The goal is to
 ```bash
    mysql -u your_user -p telecom_analytics < analytics_queries.sql
 ```
----
-
-## 📬 Contact
-
-Feel free to connect on [LinkedIn](#) or raise an issue for any questions or suggestions.
