@@ -1,37 +1,87 @@
-Telecom Customer Usage & Revenue Analytics (SQL Project)
-Project Overview
+# 📡 Telecom Customer Usage & Revenue Analytics (SQL Project)
+
+## 📌 Project Overview
+
 This project simulates a telecom company's analytics environment. The goal is to analyze customer subscriptions, usage behavior, revenue KPIs, and data quality metrics using SQL.
 
-Business Objectives
-Monitor revenue and customer activity
-Identify high-value customers
-Detect inactive customers
-Perform data quality checks
-Build datasets for dashboards and reporting
-Tech Stack
-SQL (MySQL-compatible)
-Power BI (optional dashboard layer)
-GitHub
-Database Schema
-Tables:
+---
 
-customers
-plans
-subscriptions
-usage_records
-Key Analytics
-Total Revenue
-Revenue by Plan
-Active Customers
-Top Data Consumers
-Inactive Customers
-Monthly Revenue Trends
-Data Quality Validation
-Resume Description
-Developed a Telecom Customer Usage & Revenue Analytics solution using SQL. Designed relational database schemas, performed KPI reporting, customer usage analysis, revenue tracking, and data quality validation using joins, aggregations, subqueries, and window functions. Created business-focused analytical queries to support reporting and decision-making.
+## 🎯 Business Objectives
 
-How to Run
-Create a MySQL database.
-Execute schema.sql
-Execute sample_data.sql
-Execute analytics_queries.sql
+- Monitor revenue and customer activity
+- Identify high-value customers
+- Detect inactive customers
+- Perform data quality checks
+- Build datasets for dashboards and reporting
+
+---
+
+## 🛠️ Tech Stack
+
+| Tool | Purpose |
+|------|---------|
+| SQL (MySQL-compatible) | Core analytics and querying |
+| Power BI | Optional dashboard layer |
+| GitHub | Version control and project hosting |
+
+---
+
+## 🗄️ Database Schema
+
+### Tables
+
+| Table | Description |
+|-------|-------------|
+| `customers` | Customer master data |
+| `plans` | Available subscription plans |
+| `subscriptions` | Customer-plan mapping |
+| `usage_records` | Individual usage events per customer |
+
+---
+
+## 📊 Key Analytics
+
+| Analysis | Description |
+|----------|-------------|
+| Total Revenue | Overall revenue across all customers |
+| Revenue by Plan | Breakdown of earnings per subscription plan |
+| Active Customers | Count and list of currently active subscribers |
+| Top Data Consumers | Customers with highest data usage |
+| Inactive Customers | Subscribers with no recent activity |
+| Monthly Revenue Trends | Month-over-month revenue tracking |
+| Data Quality Validation | Checks for nulls, duplicates, and anomalies |
+
+---
+
+## 💼 Resume Description
+
+> Developed a **Telecom Customer Usage & Revenue Analytics** solution using SQL. Designed relational database schemas, performed KPI reporting, customer usage analysis, revenue tracking, and data quality validation using **joins, aggregations, subqueries, and window functions**. Created business-focused analytical queries to support reporting and decision-making.
+
+---
+
+## 🚀 How to Run
+
+1. **Create a MySQL database**
+```sql
+   CREATE DATABASE telecom_analytics;
+   USE telecom_analytics;
+```
+
+2. **Execute the schema script**
+```bash
+   mysql -u your_user -p telecom_analytics < schema.sql
+```
+
+3. **Load sample data**
+```bash
+   mysql -u your_user -p telecom_analytics < sample_data.sql
+```
+
+4. **Run analytics queries**
+```bash
+   mysql -u your_user -p telecom_analytics < analytics_queries.sql
+```
+
+---
+
+## 📁 Project Structure
